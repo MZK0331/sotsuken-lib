@@ -12,7 +12,7 @@ export interface ReplyCreateddEvent {
         content: string;
         userId: string;
         edited: boolean;
-        createdAt: string;
+        createdAt: Date;
     };
 }
 export interface ReplyUpdatedEvent {

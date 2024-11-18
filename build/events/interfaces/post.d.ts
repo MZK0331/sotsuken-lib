@@ -14,7 +14,7 @@ export interface PostGetedEvent {
         resolved: boolean;
         edited: boolean;
         userId: string;
-        createdAt: string;
+        createdAt: Date;
     };
 }
 export interface PostCreatedEvent {
@@ -30,7 +30,7 @@ export interface PostCreatedEvent {
         resolved: boolean;
         edited: boolean;
         userId: string;
-        createdAt: string;
+        createdAt: Date;
     };
 }
 export interface PostUpdatedEvent {
@@ -45,7 +45,7 @@ export interface PostUpdatedEvent {
         tags: string[];
         resolved: boolean;
         edited: boolean;
-        updatedAt: string;
+        updatedAt: Date;
     };
 }
 export interface PostDeletedEvent {

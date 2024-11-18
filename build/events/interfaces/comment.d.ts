@@ -11,7 +11,7 @@ export interface CommentCreatedEvent {
         postId: string;
         userId: string;
         edited: boolean;
-        createdAt: string;
+        createdAt: Date;
     };
 }
 export interface CommentUpdatedEvent {
@@ -32,5 +32,6 @@ export interface CommentDeletedEvent {
     readonly subject: E_Subjects.CommentDeleted;
     readonly data: {
         id: string;
+        postId: string;
     };
 }
