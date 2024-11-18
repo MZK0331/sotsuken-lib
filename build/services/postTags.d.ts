@@ -1,2 +1,1 @@
-export type PostTags = [""];
-export type PostTag = PostTags[number];
+export declare const PostTags: readonly [""];

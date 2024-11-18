@@ -1,2 +1,1 @@
-export type Exams = [""];
-export type Exam = Exams[number];
+export declare const Exams: readonly [""];
