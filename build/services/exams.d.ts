@@ -1,1 +1,2 @@
-export declare const exams: string[];
+export type Exams = [""];
+export type Exam = Exams[number];

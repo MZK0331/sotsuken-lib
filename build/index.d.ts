@@ -1,5 +1,5 @@
 export * from './services/exams';
-export * from './services/tags';
+export * from './services/postTags';
 export * from "./errors/bad-requesr-error";
 export * from "./errors/custom-error";
 export * from './errors/database-connection-error';
