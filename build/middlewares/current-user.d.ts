@@ -1,9 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-interface UserPayload {
-    id: string;
-    name: string;
-    email: string;
-}
+import { UserPayload } from "../services/user";
 declare global {
     namespace Express {
         interface Request {
@@ -12,4 +8,3 @@ declare global {
     }
 }
 export declare const currentUser: (req: Request, res: Response, next: NextFunction) => void;
-export {};

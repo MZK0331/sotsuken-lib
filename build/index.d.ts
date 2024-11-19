@@ -1,3 +1,4 @@
+export * from './services/user';
 export * from './services/exams';
 export * from './services/postTags';
 export * from "./errors/bad-requesr-error";
