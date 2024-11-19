@@ -15,10 +15,9 @@ const exit = (nc) => __awaiter(void 0, void 0, void 0, function* () {
     yield nc.close();
     process.exit();
 });
-const natsSetup = () => __awaiter(void 0, void 0, void 0, function* () {
+const natsSetup = (...args_1) => __awaiter(void 0, [...args_1], void 0, function* (url = 'http://localhost:4222') {
     const nc = yield (0, nats_1.connect)({
-        // servers: 'http://localhost:4222'
-        servers: 'http://nats-srv:4222'
+        servers: url
     });
     const jsm = yield nc.jetstreamManager();
     const js = nc.jetstream();

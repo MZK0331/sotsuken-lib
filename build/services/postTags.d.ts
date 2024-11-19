@@ -1,1 +1,1 @@
-export declare const PostTags: readonly [""];
+export declare const PostTags: readonly ["aaa", "aaaa", "aaaa"];
