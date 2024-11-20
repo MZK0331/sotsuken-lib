@@ -17,7 +17,7 @@ export * from './events/natsSetup';
 export * from './events/enums/consumer';
 export * from './events/enums/streams';
 export * from './events/enums/subjects';
-export * from './events/interfaces/Postlikes';
+export * from './events/interfaces/postlikes';
 export * from './events/interfaces/blockingUser';
 export * from './events/interfaces/comment';
 export * from './events/interfaces/commentReply';

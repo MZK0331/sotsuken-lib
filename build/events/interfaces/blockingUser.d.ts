@@ -1,7 +1,7 @@
 import { E_Consumer } from "../enums/consumer";
 import { E_Streams } from "../enums/streams";
 import { E_Subjects } from "../enums/subjects";
-export interface BlockingUserCreateddEvent {
+export interface BlockingUserCreatedEvent {
     readonly consumerName: E_Consumer.BlockingUserCreatedListener;
     readonly streamName: E_Streams.BlockingUserCreated;
     readonly subject: E_Subjects.BlockingUserCreated;

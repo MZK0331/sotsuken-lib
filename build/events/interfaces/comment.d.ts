@@ -12,6 +12,7 @@ export interface CommentCreatedEvent {
         userId: string;
         edited: boolean;
         createdAt: Date;
+        updatedAt: Date;
     };
 }
 export interface CommentUpdatedEvent {
@@ -24,6 +25,8 @@ export interface CommentUpdatedEvent {
         postId: string;
         userId: string;
         edited: boolean;
+        createdAt: Date;
+        updatedAt: Date;
     };
 }
 export interface CommentDeletedEvent {

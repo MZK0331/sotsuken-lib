@@ -1,7 +1,7 @@
 import { E_Consumer } from "../enums/consumer";
 import { E_Streams } from "../enums/streams";
 import { E_Subjects } from "../enums/subjects";
-export interface ReplyCreateddEvent {
+export interface ReplyCreatedEvent {
     readonly consumerName: E_Consumer.ReplyCreatedListener;
     readonly streamName: E_Streams.ReplyCreated;
     readonly subject: E_Subjects.ReplyCreated;
@@ -13,6 +13,7 @@ export interface ReplyCreateddEvent {
         userId: string;
         edited: boolean;
         createdAt: Date;
+        updatedAt: Date;
     };
 }
 export interface ReplyUpdatedEvent {
@@ -26,6 +27,8 @@ export interface ReplyUpdatedEvent {
         content: string;
         userId: string;
         edited: boolean;
+        createdAt: Date;
+        updatedAt: Date;
     };
 }
 export interface ReplyDeletedEvent {

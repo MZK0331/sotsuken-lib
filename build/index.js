@@ -33,7 +33,7 @@ __exportStar(require("./events/natsSetup"), exports);
 __exportStar(require("./events/enums/consumer"), exports);
 __exportStar(require("./events/enums/streams"), exports);
 __exportStar(require("./events/enums/subjects"), exports);
-__exportStar(require("./events/interfaces/Postlikes"), exports);
+__exportStar(require("./events/interfaces/postlikes"), exports);
 __exportStar(require("./events/interfaces/blockingUser"), exports);
 __exportStar(require("./events/interfaces/comment"), exports);
 __exportStar(require("./events/interfaces/commentReply"), exports);
