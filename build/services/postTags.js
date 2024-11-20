@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PostTags = void 0;
 exports.PostTags = [
+    "",
     "ITパスポート",
     "情報セキュリティマネジメント",
     "基本情報技術者",
