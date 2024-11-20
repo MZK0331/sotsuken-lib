@@ -1,3 +1,5 @@
+import { Exams } from "../../services/exams";
+import { PostTags } from "../../services/postTags";
 import { E_Consumer } from "../enums/consumer";
 import { E_Streams } from "../enums/streams";
 import { E_Subjects } from "../enums/subjects";
@@ -9,12 +11,13 @@ export interface PostGetedEvent {
         id: string;
         title: string;
         content: string;
-        exam: string;
-        tags: string[];
+        exam: typeof Exams[number];
+        tags: typeof PostTags[number][];
         resolved: boolean;
         edited: boolean;
         userId: string;
         createdAt: Date;
+        updatedAt: Date;
     };
 }
 export interface PostCreatedEvent {
@@ -25,12 +28,13 @@ export interface PostCreatedEvent {
         id: string;
         title: string;
         content: string;
-        exam: string;
-        tags: string[];
+        exam: typeof Exams[number];
+        tags: typeof PostTags[number][];
         resolved: boolean;
         edited: boolean;
         userId: string;
         createdAt: Date;
+        updatedAt: Date;
     };
 }
 export interface PostUpdatedEvent {
@@ -41,10 +45,12 @@ export interface PostUpdatedEvent {
         id: string;
         title: string;
         content: string;
-        exam: string;
-        tags: string[];
+        exam: typeof Exams[number];
+        tags: typeof PostTags[number][];
         resolved: boolean;
         edited: boolean;
+        userId: string;
+        createdAt: Date;
         updatedAt: Date;
     };
 }
