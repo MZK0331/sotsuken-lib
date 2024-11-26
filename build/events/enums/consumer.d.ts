@@ -12,8 +12,8 @@ export declare enum E_Consumer {
     CommentCreatedListener = "CommentCreatedListener",
     CommentUpdatedListener = "CommentUpdatedListener",
     CommentDeletedListener = "CommentDeletedListener",
-    ReplyCreatedListener = "ReplyCreatedListener",
-    ReplyUpdatedListener = "ReplyUpdatedListener",
-    ReplyDeletedListener = "ReplyDeletedListener",
+    CommentReplyCreatedListener = "CommentReplyCreatedListener",
+    CommentReplyUpdatedListener = "CommentReplyUpdatedListener",
+    CommentReplyDeletedListener = "CommentReplyDeletedListener",
     ReportCreatedListener = "ReportCreatedListener"
 }

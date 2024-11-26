@@ -12,8 +12,8 @@ export declare enum E_Streams {
     CommentCreated = "comment:created",
     CommentUpdated = "comment:updated",
     CommentDeleted = "comment:deleted",
-    ReplyCreated = "reply:created",
-    ReplyUpdated = "reply:updated",
-    ReplyDeleted = "reply:deleted",
+    CommentReplyCreated = "commentReply:created",
+    CommentReplyUpdated = "commentReply:updated",
+    CommentReplyDeleted = "commentReply:deleted",
     ReportCreated = "repord:created"
 }
