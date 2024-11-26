@@ -35,6 +35,7 @@ export interface CommentDeletedEvent {
     readonly subject: E_Subjects.CommentDeleted;
     readonly data: {
         id: string;
+        userId: string;
         postId: string;
     };
 }
