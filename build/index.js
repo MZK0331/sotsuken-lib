@@ -39,4 +39,5 @@ __exportStar(require("./events/interfaces/commentReply"), exports);
 __exportStar(require("./events/interfaces/post"), exports);
 __exportStar(require("./events/interfaces/postlikes"), exports);
 __exportStar(require("./events/interfaces/user"), exports);
+__exportStar(require("./events/interfaces/userProfile"), exports);
 __exportStar(require("./events/interfaces/userReport"), exports);

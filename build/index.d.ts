@@ -23,4 +23,5 @@ export * from './events/interfaces/commentReply';
 export * from './events/interfaces/post';
 export * from './events/interfaces/postlikes';
 export * from './events/interfaces/user';
+export * from './events/interfaces/userProfile';
 export * from './events/interfaces/userReport';
