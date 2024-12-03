@@ -1,8 +1,7 @@
-import { E_Consumer } from "../enums/consumer";
 import { E_Streams } from "../enums/streams";
 import { E_Subjects } from "../enums/subjects";
 export interface UserCreatedEvent {
-    readonly consumerName: E_Consumer.UserCreatedListener;
+    readonly consumerName: string;
     readonly streamName: E_Streams.UserCreated;
     readonly subject: E_Subjects.UserCreated;
     readonly data: {
@@ -12,7 +11,7 @@ export interface UserCreatedEvent {
     };
 }
 export interface UserUpdatedEvent {
-    readonly consumerName: E_Consumer.UserUpdatedListener;
+    readonly consumerName: string;
     readonly streamName: E_Streams.UserUpdated;
     readonly subject: E_Subjects.UserUpdated;
     readonly data: {
@@ -22,7 +21,7 @@ export interface UserUpdatedEvent {
     };
 }
 export interface UserDeletedEvent {
-    readonly consumerName: E_Consumer.UserDeletedListener;
+    readonly consumerName: string;
     readonly streamName: E_Streams.UserDeleted;
     readonly subject: E_Subjects.UserDeleted;
     readonly data: {

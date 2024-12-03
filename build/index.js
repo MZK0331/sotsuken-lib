@@ -30,6 +30,7 @@ __exportStar(require("./middlewares/validate-request"), exports);
 __exportStar(require("./events/base-listener"), exports);
 __exportStar(require("./events/base-publisher"), exports);
 __exportStar(require("./events/natsSetup"), exports);
+__exportStar(require("./events/setConsumerName"), exports);
 __exportStar(require("./events/enums/consumer"), exports);
 __exportStar(require("./events/enums/streams"), exports);
 __exportStar(require("./events/enums/subjects"), exports);

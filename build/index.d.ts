@@ -14,6 +14,7 @@ export * from './middlewares/validate-request';
 export * from './events/base-listener';
 export * from './events/base-publisher';
 export * from './events/natsSetup';
+export * from './events/setConsumerName';
 export * from './events/enums/consumer';
 export * from './events/enums/streams';
 export * from './events/enums/subjects';
