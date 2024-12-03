@@ -9,15 +9,6 @@ export interface PostGetedEvent {
     readonly subject: E_Subjects.PostGeted;
     readonly data: {
         id: string;
-        title: string;
-        content: string;
-        exam: typeof Exams[number];
-        tags: typeof PostTags[number][];
-        resolved: boolean;
-        edited: boolean;
-        userId: string;
-        createdAt: Date;
-        updatedAt: Date;
     };
 }
 export interface PostCreatedEvent {
