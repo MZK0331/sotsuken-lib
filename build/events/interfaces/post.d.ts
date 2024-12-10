@@ -24,6 +24,8 @@ export interface PostCreatedEvent {
         resolved: boolean;
         edited: boolean;
         userId: string;
+        views: number;
+        likes: number;
         createdAt: Date;
         updatedAt: Date;
     };
@@ -41,6 +43,8 @@ export interface PostUpdatedEvent {
         resolved: boolean;
         edited: boolean;
         userId: string;
+        views: number;
+        likes: number;
         createdAt: Date;
         updatedAt: Date;
     };
