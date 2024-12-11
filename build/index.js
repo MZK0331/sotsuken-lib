@@ -16,7 +16,6 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./services/user"), exports);
 __exportStar(require("./services/exams"), exports);
-__exportStar(require("./services/postTags"), exports);
 __exportStar(require("./errors/bad-requesr-error"), exports);
 __exportStar(require("./errors/custom-error"), exports);
 __exportStar(require("./errors/database-connection-error"), exports);

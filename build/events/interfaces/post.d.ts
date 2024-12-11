@@ -1,5 +1,4 @@
 import { Exams } from "../../services/exams";
-import { PostTags } from "../../services/postTags";
 import { E_Streams } from "../enums/streams";
 import { E_Subjects } from "../enums/subjects";
 export interface PostGetedEvent {
@@ -20,7 +19,7 @@ export interface PostCreatedEvent {
         title: string;
         content: string;
         exam: typeof Exams[number];
-        tags: typeof PostTags[number][];
+        tags: string[];
         resolved: boolean;
         edited: boolean;
         userId: string;
@@ -39,7 +38,7 @@ export interface PostUpdatedEvent {
         title: string;
         content: string;
         exam: typeof Exams[number];
-        tags: typeof PostTags[number][];
+        tags: string[];
         resolved: boolean;
         edited: boolean;
         userId: string;
